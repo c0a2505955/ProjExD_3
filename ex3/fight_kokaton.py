@@ -84,7 +84,6 @@ class Bird:
             self.img = __class__.imgs[tuple(sum_mv)]
         screen.blit(self.img, self.rct)
 
-
 class Beam:
     """
     こうかとんが放つビームに関するクラス
